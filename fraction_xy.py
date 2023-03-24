@@ -64,4 +64,6 @@ selection = select_random_p_from_n(p, lines_f_x)
 f_x_out = out_name(f_x,p,seed)
 f_y_out = out_name(f_y,p,seed)
 
+f_x_out = "x_train.csv"
+f_y_out = "y_train.csv"
 select_from_two_files(f_x, f_x_out, f_y, f_y_out, selection)
